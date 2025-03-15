@@ -14,7 +14,7 @@ var banner = ['/*!\n',
   ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
   ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
   ' */\n',
-  '\n'
+  '\n'   
 ].join('');
 
 // Copy third party libraries from /node_modules into /vendor

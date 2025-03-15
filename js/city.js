@@ -6,7 +6,7 @@
 */
  var cities={'pune':['kondhwa','maval','baramati','kothrud','katraj'],'nagpur':['savner','kuhi','bhiwapur','narkhed','katol'],'amravati':['dharni','morshi','warud','chandur','dhamangaon']}
 
- var City = function() {
+ var City = function() {    
 
 	this.p = [],this.c = [],this.a = [],this.e = {};
 	window.onerror = function() { return true; }
